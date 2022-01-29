@@ -1,0 +1,33 @@
+a = {1,2,3,4}
+b = {3,4,5,6}
+c = {5,6,7,8}
+print(a.union(b))
+print(a)
+print(a.update(b))
+print(a)
+print(a.intersection(b))
+print(b.intersection_update(a,c))
+print(b)
+print(a.difference(b,c))
+print(b.difference_update(a))
+print(b)
+b.update(a,c)
+print(a,b,c)
+print(a.symmetric_difference_update(b))
+print(a)
+a.add(2)
+print(a)
+a.add((5,6,7))
+print(a)
+print(a.pop())
+print(a)
+print(a.remove(8))
+print(a.discard(10))
+print(a.issubset(b))
+print(b.issuperset(a))
+print(a.isdisjoint(c))
+e=[1,2,3,4,5]
+d = set([1,2,3])
+print(d)
+s={*a,*b}
+print(s)

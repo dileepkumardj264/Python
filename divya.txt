@@ -1,0 +1,2 @@
+s = input("enter the value: ")
+for i in s:
